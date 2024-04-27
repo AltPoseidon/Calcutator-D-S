@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="calculator">
+      <div class="calculator-top">
+        <textarea id="screenNumber"></textarea>
+      </div>
+      <div class="calculator-body">
+        <div class="btn number" id="number1"><div>1</div></div>
+        <div class="btn number" id="number2"><div>2</div></div>
+        <div class="btn number" id="number3"><div>3</div></div>
+        <div class="btn operator" id="operator+">+</div>
+        <div class="btn number" id="number4"><div>4</div></div>
+        <div class="btn number" id="number5"><div>5</div></div>
+        <div class="btn number" id="number6"><div>6</div></div>
+        <div class="btn operator" id="operator-">-</div>
+        <div class="btn number" id="number7"><div>7</div></div>
+        <div class="btn number" id="number8"><div>8</div></div>
+        <div class="btn number" id="number9"><div>9</div></div>
+        <div class="btn operator" id="operatorx">x</div>
+        <div class="btn number" id="number0"><div>0</div></div>
+        <div class="btn operator" id="operator÷">÷</div>
+        <div class="btn operator" id="operator.">.</div>
+        <div class="btn operator" id="operator=" onclick="sendData()">=</div>
+        <div class="btn operator" id="operatorC">C</div>
+      </div>
+      <div id="output"></div>
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
